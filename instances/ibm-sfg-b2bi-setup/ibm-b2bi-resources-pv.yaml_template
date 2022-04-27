@@ -7,7 +7,7 @@ metadata:
   labels:
     intent: resources
 spec:
-  storageClassName: "managed-premium"
+  storageClassName: "ocs-storagecluster-cephfsium"
   capacity:
     storage: 100Mi
   accessModes:
