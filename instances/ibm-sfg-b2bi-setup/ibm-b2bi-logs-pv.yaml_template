@@ -7,7 +7,7 @@ metadata:
   labels:
     intent: logs
 spec:
-  storageClassName: "ocs-storagecluster-cephfsium"
+  storageClassName: "ocs-storagecluster-cephfs"
   capacity:
     storage: 500Mi
   accessModes:

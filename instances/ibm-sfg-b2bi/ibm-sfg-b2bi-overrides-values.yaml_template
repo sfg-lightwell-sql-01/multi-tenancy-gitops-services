@@ -17,7 +17,7 @@ ibm-sfg-prod:
   appResourcesPVC:
     enabled: ${APP_RESOURCES_PVC_ENABLED}
     name: resources
-    storageClassName: "ocs-storagecluster-cephfsium"
+    storageClassName: "ocs-storagecluster-cephfs"
     selector:
       label: "intent"
       value: "resources"
@@ -25,7 +25,7 @@ ibm-sfg-prod:
     size: 100Mi
   appLogsPVC:
     name: logs
-    storageClassName: "ocs-storagecluster-cephfsium"
+    storageClassName: "ocs-storagecluster-cephfs"
     selector:
       label: "intent"
       value: "logs"
@@ -34,7 +34,7 @@ ibm-sfg-prod:
   appDocumentsPVC:
     enabled: ${APP_DOCUMENTS_PVC_ENABLED}
     name: documents
-    storageClassName: "ocs-storagecluster-cephfsium"
+    storageClassName: "ocs-storagecluster-cephfs"
     selector:
       label: "intent"
       value: "documents"

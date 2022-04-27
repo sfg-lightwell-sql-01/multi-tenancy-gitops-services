@@ -24,5 +24,5 @@ spec:
     requests:
       storage: 500Mi
   volumeName: documents
-  storageClassName: ocs-storagecluster-cephfsium
+  storageClassName: ocs-storagecluster-cephfs
   volumeMode: Filesystem
